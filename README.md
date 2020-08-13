@@ -11,4 +11,7 @@ This is a demo in python which uses boto3 to manage AWS ec2 isntances.
 
 ## Running
 
-`pipenv run python shotty.shotty.py`
+`pipenv run python shotty.shotty.py <command> <--project=PROJECT>`
+
+*command* is list, start, or stop
+*project* is optional
